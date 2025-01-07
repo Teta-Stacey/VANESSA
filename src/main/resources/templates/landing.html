@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TripEase - Manage Your Trips Effortlessly</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="hero-section">
+  <div class="container">
+    <nav class="navbar">
+      <a href="#" class="logo">TripEase</a>
+      <ul class="nav-links">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hero-content">
+      <h1>Plan, Book, and Manage Your Trips Seamlessly</h1>
+      <p>Make every trip memorable with TripEase – your trusted travel companion.</p>
+      <a href="#get-started" class="btn btn-primary">Get Started</a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section id="features" class="features-section">
+    <div class="container">
+      <h2>Our Features</h2>
+      <div class="features-grid">
+        <div class="feature-item">
+          <h3>Itinerary Management</h3>
+          <p>Organize your trips with ease and never miss an activity.</p>
+        </div>
+        <div class="feature-item">
+          <h3>Smart Bookings</h3>
+          <p>Find and book flights, hotels, and experiences in one place.</p>
+        </div>
+        <div class="feature-item">
+          <h3>Real-Time Updates</h3>
+          <p>Stay informed with real-time updates about your trips.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about-section">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>At TripEase, we aim to simplify travel planning by providing a comprehensive platform for all your travel needs. From creating itineraries to managing bookings, our system is designed to make travel stress-free.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form action="#" class="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" rows="4" required></textarea>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container">
+    <p>&copy; 2024 TripEase. All Rights Reserved.</p>
+  </div>
+</footer>
+</body>
+/* General Styles */
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+line-height: 1.6;
+color: #333;
+}
+
+.container {
+width: 90%;
+max-width: 1200px;
+margin: auto;
+}
+
+/* Navbar */
+.navbar {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 1rem 0;
+}
+
+.nav-links {
+list-style: none;
+display: flex;
+gap: 1rem;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: bold;
+}
+
+.logo {
+font-size: 1.5rem;
+font-weight: bold;
+color: #007bff;
+}
+
+/* Hero Section */
+.hero-section {
+background: url('https://source.unsplash.com/1600x900/?travel') no-repeat center center/cover;
+color: white;
+text-align: center;
+padding: 4rem 0;
+}
+
+.hero-content h1 {
+font-size: 2.5rem;
+margin-bottom: 1rem;
+}
+
+.hero-content p {
+font-size: 1.2rem;
+margin-bottom: 2rem;
+}
+
+.btn-primary {
+background-color: #007bff;
+color: white;
+border: none;
+padding: 0.8rem 1.5rem;
+border-radius: 5px;
+cursor: pointer;
+text-decoration: none;
+}
+
+.btn-primary:hover {
+background-color: #0056b3;
+}
+
+/* Features Section */
+.features-section {
+padding: 2rem 0;
+text-align: center;
+}
+
+.features-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+gap: 1.5rem;
+margin-top: 2rem;
+}
+
+.feature-item {
+background: #f9f9f9;
+padding: 1.5rem;
+border-radius: 8px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* About Section */
+.about-section {
+background-color: #f1f1f1;
+padding: 2rem 0;
+text-align: center;
+}
+
+/* Contact Section */
+.contact-section {
+padding: 2rem 0;
+}
+
+.contact-form {
+display: flex;
+flex-direction: column;
+gap: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+padding: 0.8rem;
+border: 1px solid #ddd;
+border-radius: 5px;
+}
+
+.contact-form button {
+align-self: flex-start;
+}
+
+/* Footer */
+footer {
+text-align: center;
+padding: 1rem 0;
+background: #333;
+color: white;
+}
+
+</html>
+
